@@ -1,0 +1,115 @@
+@media (max-width:992px){
+    .menubar ul li{
+        padding: 0px 2px;
+    }
+    .menubar ul li a{
+        padding-inline: 13px;
+    }
+    .banner{
+        padding-top: 150px;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .search-box{
+        max-width: 100%;
+    }
+    .banner-img{
+        padding: 0;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    .banner-img .offer{
+        left: 22px;
+        bottom: 20px;
+    }
+    .trending-cotent, .top-games{
+        margin-bottom: 30px;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .main-btn{
+        padding-block: 10px;
+        margin: 0;
+        text-align: center;
+    }
+    .game-category, .game-heading{
+        text-align: center;
+    }
+    .trending-card, .category-card{
+        margin-bottom: 5rem;
+    }
+    .most-played{
+        margin-top: 0;
+    }
+    .top-games-card{
+        margin-bottom: 60px;
+    }
+    .cta-section .container::after{
+        content: "";
+        background:unset;
+    }
+    .shop,.newsletter{
+        padding: 0;
+        text-align: center;
+    }
+    footer{
+        border-radius: 0;
+    }
+}
+@media (max-width:768px){
+    
+    .logo-div{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo-div .bar{
+        font-size: 3rem;
+        display: block;
+        color: #fff;
+    }
+    .menubar{
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        left: 0;
+        display: block;
+        transition: all 0.2s linear;
+        height: 245px;
+        overflow: hidden;
+    }
+    
+    .menubar ul{
+        margin-top: 70px;
+        width: 90%;
+        position: absolute;
+        top: -100%;
+        left: 50%;
+        background-color: rgb(255, 255, 255);
+        transform: translate(-50%, -50%);
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+        border-radius: 0px 0px 25px 25px;
+        gap: 6px;
+        transition: 0.2s linear;
+        display: block;
+    }
+    .menubar-active{
+        top: 50px !important;
+    }
+    .menubar ul li{
+        margin-bottom: 5px;
+    }
+    .menubar ul li a{
+        color: #000;
+        background-color: transparent;
+        font-weight: 400;
+    }
+}
